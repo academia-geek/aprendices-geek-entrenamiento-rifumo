@@ -1,5 +1,6 @@
 body{
     background-color: aliceblue;
+    margin: 150px;
     }
 
 #titulo{
@@ -83,4 +84,12 @@ footer{
 
 #inicio{
     text-align: left;  
+}
+
+#p_hijos{
+        text-align: center;
+        border: 2px solid black;
+        width: 45%;
+        margin: auto;
+        border-radius: 10px;
 }
