@@ -1,0 +1,86 @@
+body{
+    background-color: aliceblue;
+    }
+
+#titulo{
+    text-align: center;
+    border: 5px solid black;
+    margin-bottom: 0px;
+}
+
+#fecha{
+text-align: right;
+margin: 0px;
+}
+
+#abuelos-reconocidos {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.tarjeta-reconocidos{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tarjeta-reconocidos img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.tarjeta-reconocidos p{
+    width:30% ;
+    display: inline-block;
+}
+
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    padding: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+#cabecera{
+    width: 50%;
+   margin: auto;
+}
+
+
+#cabecera img{
+    width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.epoca{
+    display: inline-block;
+    border: 2px solid black;
+    width: 45%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#epocas_abuelos{
+   text-align: center;
+}
+
+#matrimonio img{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#matrimonio{
+    margin:50px;
+    text-align: center;
+}
+
+#inicio{
+    text-align: left;  
+}
