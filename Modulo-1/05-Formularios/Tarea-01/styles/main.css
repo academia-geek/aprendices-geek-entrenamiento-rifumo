@@ -1,0 +1,28 @@
+body{
+    background-color: aliceblue;
+    margin: 30px;
+}
+main{
+    border: 2px solid  black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+div{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+input{
+    margin: 5px;
+}
+
+.full-width{
+     width: 75%;
+     margin: 20px;
+     text-align: right;
+}
