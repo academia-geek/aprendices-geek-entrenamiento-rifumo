@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 45px;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+   padding: auto;
+   bottom: 0ch;
+   width: 100%;
+}
+
+h3{
+ font-family: 'Times New Roman', Times, serif;
+ font-style: italic;
+}
+
+ul{
+    text-align: left;
+    display: inline-block;
+    font-style: oblique;
+}
+
+section{
+    
+    display: inline-block;
+    border: 2px solid black;
+    width: 45%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 25px;
+     
+}
