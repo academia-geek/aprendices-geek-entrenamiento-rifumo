@@ -1,0 +1,53 @@
+.cabeza{
+    background: rgb(183, 224, 208);
+    width: 23.7%;
+   }
+
+   .contenido{
+    background: rgb(183, 224, 208);
+    width: 23%;
+    padding: 5px; 
+   }
+   .pass{
+       width: 343px;
+       height: 30px;
+       border-radius: 4px;
+   }
+   .nombre{
+    height: 30px;
+    border-radius: 4px;   
+   }
+
+   .fecha{
+    height: 30px;
+    border-radius: 4px; 
+    width: 100px;
+    padding: 5px;
+   }
+
+   .sexo{
+    height: 25px;
+    border-radius: 4px; 
+    margin: 5px;
+    background: rgb(230, 230, 240);
+    font-size: 15px;
+    padding: 5px;
+
+   }
+  
+   .registrar{
+       background: rgb(15, 156, 34);
+       height: 30px;
+       border-radius: 5px;
+       color: aliceblue;
+       font-size: 15px;
+       margin: 13px;
+       width: 150px;
+        }
+
+        #politica{
+            text-align: left;
+            font-size: 14px;
+        }
+
+    
