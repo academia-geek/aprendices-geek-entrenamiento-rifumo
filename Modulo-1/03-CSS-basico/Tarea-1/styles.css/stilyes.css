@@ -1,0 +1,113 @@
+:root {
+    --body-bg-color: #1a1c1d;
+    --text-color: #aaaebc;
+    --hr-color: #26292a;
+    --red: #e74c3c;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 30px 0;
+    font: 22px sans-serif;
+    background: var(--body-bg-color);
+    color: var(--text-color);
+  }
+  
+  
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin-right: 70px;
+  }
+  
+  .menu a {
+    position: relative;
+    display: block;
+    padding: 5px;
+  }
+  
+  .menu a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu a:hover::before {
+    transform: scaleX(1);
+  }
+  
+  
+  /* ANIMATIONS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .menu[data-animation="to-left"] a::before {
+    transform-origin: right;
+  }
+  
+  .menu[data-animation="center"] a::before {
+    transform-origin: center;
+  }
+  
+
+
+  /*unvisited link */
+  a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  } 
+ 
+  ul.menu1:hover, ul.menu1:active {font-size: 150%;}
+
+
+
+  div {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+  }
+    
+  span:hover + div {
+    display: block;
+  }
+
+ 
+  
+  .ribbon::after {
+    content: "por encima por favor.";
+    background-color: #99bae5;
+    border-color: black;
+    border-style: dotted;
+  }
