@@ -1,5 +1,5 @@
 :root {
-    --body-bg-color: #1a1c1d;
+    --body-bg-color: #aed9ee;
     --text-color: #aaaebc;
     --hr-color: #26292a;
     --red: #e74c3c;
@@ -12,20 +12,24 @@
   a {
     color: inherit;
     text-decoration: none;
-  }
+    margin-left: 0%;
+   }
   
   body {
     margin: 30px 0;
-    font: 22px sans-serif;
+    font: 10px sans-serif;
     background: var(--body-bg-color);
     color: var(--text-color);
   }
-  
+  p{
+    width: 35%;
+  }
   
   
   .menu {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-right: 45%;
   }
   
   .menu li {
@@ -43,7 +47,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 35%;
     height: 2px;
     background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
     z-index: 1;
@@ -97,17 +101,48 @@
     background-color: yellow;
     padding: 20px;
     display: none;
-  }
+    margin-left: 15%;
+    margin-right: 55%;  }
     
   span:hover + div {
     display: block;
   }
 
- 
+
   
   .ribbon::after {
     content: "por encima por favor.";
     background-color: #99bae5;
     border-color: black;
     border-style: dotted;
+  }
+
+  .red-input:focus {
+    background: yellow;
+    color: red;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid #ddffdd;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #C00000;
   }
