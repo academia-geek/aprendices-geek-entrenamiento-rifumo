@@ -61,6 +61,7 @@ footer{
     top: 0;
     left: 0;
     z-index: 1;
+    z-index:1;
     margin-left: 700px;
     margin-top: 330px;
     border: solid black;
