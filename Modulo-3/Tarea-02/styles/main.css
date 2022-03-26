@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.numeros{
+   
+    margin: 15px auto;
+}
+
+.clas{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    grid-template-rows: repeat(2, 200px);
+    grid-template-areas:
+    "arriba derecha"
+    "abajo izquierda";
+    margin-left: 4rem;
+    
+}
+
+.item1 {
+    grid-area: arriba;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 45%;
+    text-align:center;
+    height:150px;
+    color: #BBAF94;
+    font-size: 12.8px;
+    padding: 7px;
+}
+
+.item2 {
+    grid-area: derecha;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 45%;
+    text-align: center;
+    height:150px;
+    color: #BBAF94;
+    font-size: 12.3px;
+    padding: 7px;
+}
+
+.item3 {
+    grid-area: abajo;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 45%;
+    text-align: center;
+    height:150px;
+    color:#BBAF94;
+    font-size: 12.5px;
+    padding: 7px;
+}
+
+.item4 {
+    grid-area: izquierda;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: 45%;
+    text-align: center;
+    height:150px;
+    color:#BBAF94;
+    font-size: 17px;
+    padding: 7px;
+}
+.btn{
+    background: #DD3748;
+    color: #EEA09E;
+    border-radius: 3px;
+    font-size: 8px;
+    padding: 5px;
+}
